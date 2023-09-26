@@ -1,56 +1,89 @@
+/* quero diminuir o background do h1 */
 h1 {
+    
     text-align: center;
     color: rgb(190, 7, 7);
-    font-family: 'Fuggles', cursive;
     font-family: 'Sedgwick Ave Display', cursive;   
-}
+    }
+
+
 h2 {
-    font-family: 'Fuggles', cursive;
-font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
     background-color: rgb(240, 216, 185);
     text-align: center;
+    font-size: 30px;
     border-radius: 60px;
-    color: darkgoldenrod;
-}
+    color: rgb(53, 172, 93);
+    border: 4px solid rgb(0, 0, 0);}
 h2:hover {
-    color: rgb(89, 134, 179);
+    color: rgb(0, 0, 0);
 }
 img {
-    border-radius: 20px;
-}
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    }
 body {
     margin: 0 auto;
     padding: 0 30px 30px 30px;
-    border: 20px solid rgb(12, 12, 12);
-    background-color: rgb(117, 189, 189);
+    border: 10px solid rgb(12, 12, 12);
+    background-color: rgb(68, 158, 180);
 }
 p { 
-    font-family: 'Fuggles', cursive;
-    font-family: 'Sedgwick Ave Display', cursive;
-}
+    font-family: 'Croissant One', cursive;  
+   }
 a {
-    font-size: 15px; font-family: monospace;    text-decoration: none;
-    color: crimson;
+    font-size: 15px; font-family: 'Croissant One', cursive;   text-decoration: none;
+    color: rgb(73, 20, 220);
+    
 }
 a:hover {
     text-decoration: underline;
-    color: rgb(218, 99, 212);
+    color: rgb(175, 3, 32);
 }
 .animaçao {
-    transition: transform .3s ease-in;
+    transition: transform .1s ease-in;
 }
 
 .animaçao:hover {
-    transform: translateX(40px);
+    transform: translateX(10px);
     color:rgb(0, 0, 0);
 }
 .back {
-background-color: antiquewhite;
+
+background-color: rgb(255, 235, 208);
 border-radius: 400px;
+border: 4px solid rgb(0, 0, 0);
 }
+
+.back:hover {
+
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(0, 0, 0);
+
+}
+
+
 .icone {
     font-size: 30px
 }
 .text-center{
     text-align: center;
+}
+.if { 
+    color: rgb(13, 192, 13);
+}
+li {
+    font-family: 'Croissant One', cursive;
+    font-size: 12px;
+}
+dl {
+    font-family: 'Croissant One', cursive;
+    font-size: 15px;
+}
+.piscas {
+    transition: transform .2s ease-in;
+}
+.piscas:hover {
+    transform: translateX(7px);
 }
